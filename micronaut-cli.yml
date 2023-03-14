@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: dev.ikhtiyor
+testFramework: junit
+sourceLanguage: java
+buildTool: maven
+features: [ annotation-api, app-name, data, data-jpa, discovery-eureka, http-client, jackson-databind, java, java-application, jdbc-hikari, junit, lombok, maven, netty-server, postgres, readme, shade, slf4j-simple, test-resources, yaml ]
