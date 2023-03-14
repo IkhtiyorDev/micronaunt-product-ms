@@ -1,12 +1,14 @@
 micronaut:
   application:
     name: productMs
+  server:
+    port: 8080
 datasource:
-    driver-class-name: org.postgresql.Driver
-    db-type: postgres
-    dialect: POSTGRES
-    username: postgres
-    password: root123
+  driver-class-name: org.postgresql.Driver
+  db-type: postgres
+  dialect: POSTGRES
+  username: postgres
+  password: root123
 netty:
   default:
     allocator:
