@@ -1,11 +1,12 @@
 micronaut:
   application:
     name: productMs
-datasources:
-  default:
+datasource:
     driver-class-name: org.postgresql.Driver
     db-type: postgres
     dialect: POSTGRES
+    username: postgres
+    password: root123
 netty:
   default:
     allocator:
