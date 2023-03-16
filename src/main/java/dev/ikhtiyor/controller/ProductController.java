@@ -15,6 +15,7 @@ public class ProductController {
 
     private final ProductService productService;
 
+
     @Post
     public HttpResponse<ProductDTO> createProduct(ProductDTO productDTO) {
         return productService.createProduct(productDTO);

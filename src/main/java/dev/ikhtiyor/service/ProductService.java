@@ -2,6 +2,7 @@ package dev.ikhtiyor.service;
 
 import dev.ikhtiyor.dto.ProductDTO;
 import io.micronaut.http.HttpResponse;
+import jakarta.inject.Singleton;
 
 import java.util.List;
 
