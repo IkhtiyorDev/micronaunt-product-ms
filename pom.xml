@@ -19,9 +19,9 @@
         <release.version>17</release.version>
         <micronaut.version>3.8.7</micronaut.version>
         <micronaut.runtime>netty</micronaut.runtime>
-        <micronaut.test.resources.enabled>true</micronaut.test.resources.enabled>
-        <micronaut.data.version>3.9.6</micronaut.data.version>
         <exec.mainClass>dev.ikhtiyor.Application</exec.mainClass>
+        <micronaut.data.version>3.9.6</micronaut.data.version>
+        <micronaut.test.resources.enabled>true</micronaut.test.resources.enabled>
         <org.mapstruct.version>1.5.3.Final</org.mapstruct.version>
     </properties>
 
@@ -189,7 +189,6 @@
                     </annotationProcessorPaths>
                 </configuration>
             </plugin>
-
         </plugins>
     </build>
 

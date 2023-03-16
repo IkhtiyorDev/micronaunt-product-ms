@@ -2,9 +2,9 @@ package dev.ikhtiyor.mapstruct;
 
 import dev.ikhtiyor.dto.CategoryDTO;
 import dev.ikhtiyor.entity.Category;
-import org.mapstruct.Mapper;
+//import org.mapstruct.Mapper;
 
-@Mapper
+//@Mapper
 public interface CategoryMapper {
 
     Category mapToCategory(CategoryDTO categoryDTO);
